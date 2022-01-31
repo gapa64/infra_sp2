@@ -1,14 +1,13 @@
 # Квик старт
 
-Проект **infra_sp2** разворачивает проект api_yamdb в контейнерах Docker. 
+Проект **infra_sp2** разворачивает проект api_yamdb в контейнерах Docker.  
 api_yamdb собирает отзывы пользователей на произведения
 
 ## Заупстить
 
 ```bash
 git clone https://github.com/gapa64/infra_sp2
-cd infra_sp2
-docker-compose up
+docker-compose up infra_sp2/infra/docker-compose.yaml 
 ```
 
 ### Миграции
