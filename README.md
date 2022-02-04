@@ -37,5 +37,8 @@ docker-compose exec web python manage.py loaddata fixtures.json
 
 ### Полезные линки
 ```bash
-Docker image проекта api_yamdb  gaps64/api_yamdb:v2.3
+Docker image проекта api_yamdb  gaps64/api_yamdb:v2.4
 ```
+
+## Автор
+- [Sergey K](https://github.com/gapa64)
